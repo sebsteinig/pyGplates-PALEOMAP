@@ -1,0 +1,19 @@
+name: base
+channels:
+  - defaults
+dependencies:
+  - python==3.7
+  - pip
+  - conda
+  - mamba
+  - cartopy
+  - cmocean
+  - numpy
+  - xarray
+  - pyyaml==5.4.1
+  - jupyterlab
+  - pandas
+  - seaborn
+  - flask
+  - netcdf4
+prefix: /usr/local
